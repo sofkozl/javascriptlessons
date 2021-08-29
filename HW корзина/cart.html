@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/75f77acec6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>The Brand Shop - Cart</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container__stand">
+            <div class="top__bar">
+                <ul class="top__left">
+                    <li class ="top__list"><a href="index.html"><img src="photo/brand-logo.png" alt="brand"></a></li>
+                    <li class ="top__list"><a href="#"><img src="photo/search-logo.svg" alt="search"></a></li>
+                </ul>
+                <ul class="top__right">
+                    <li class="top__list"><a href="#"><img src="photo/burger-logo.svg" alt="menu"></a>
+                        <nav class="mega__box">
+                            <img class="close__mega__box" src="photo/close-logo.svg" alt="close">
+                            <h3 class="mega__box__heading">menu</h3>
+                            <div class="menu__box">
+                                <h3 class="menu__box__subheading">man</h3>
+                                <a class="menu__box__link" href="">Accessories</a>
+                                <a class="menu__box__link" href="">Bags</a>
+                                <a class="menu__box__link" href="">Denim</a>
+                                <a class="menu__box__link" href="">T-Shirts</a>
+                            </div>
+                            <div class="menu__box">
+                                <h3 class="menu__box__subheading">woman</h3>
+                                <a class="menu__box__link" href="">Accessories</a>
+                                <a class="menu__box__link" href="">Jackets & Coats</a>
+                                <a class="menu__box__link" href="">Polos</a>
+                                <a class="menu__box__link" href="">T-Shirts</a>
+                                <a class="menu__box__link" href="">Shirts</a>
+                            </div>
+                            <div class="menu__box">
+                                <h3 class="menu__box__subheading">kids</h3>
+                                <a class="menu__box__link" href="">Accessories</a>
+                                <a class="menu__box__link" href="">Jackets & Coats</a>
+                                <a class="menu__box__link" href="">Polos</a>
+                                <a class="menu__box__link" href="">T-Shirts</a>
+                                <a class="menu__box__link" href="">Shirts</a>
+                                <a class="menu__box__link" href="">Bags</a>
+                            </div>    
+                        </nav>
+                    </li>
+                    <li class="top__list"><a href="registration.html"><img src="photo/profile-logo.svg" alt="login"></a></li>
+                    <li class="top__list"><a href="cart.html"><img src="photo/cart-logo.svg" alt="cart"></a></li>
+                </ul>
+            </div>
+        </div>   
+    </header>
+    <div class="catalog__top">
+        <div class="container__stand">
+            <div class="catalog__top__box">
+                <h2 class="catalog__title">shopping cart</h2>
+            </div>
+        </div>
+    </div>
+    <section class="shopping-cart">
+        <div class="container__stand">
+            <div class="shopping-cart-flexbox">
+                <div class="shopping-cart-box">
+                        <div class="selected-product-card">
+                            <div class="selected-product-card-left">
+                                <a class="link-to-product" href="product.html"><img class="selected-product-photo" src="photo/card-photo-3.jpg" alt="photo"></a>
+                            </div>
+                            <div class="selected-product-card-right">
+                                <a class="link-to-product" href="product.html"><h3 class="selected-product-subheading">MANGO PEOPLE T-SHIRT</h3></a>
+                                <ul class="selected-product-list">
+                                    <li class="selected-product-item">Price: <span class="pink__elements">$300</span></li>
+                                    <li class="selected-product-item">Color: Red</li>
+                                    <li class="selected-product-item">Size: XL</li>
+                                    <li class="selected-product-item">Quantity:&emsp;<input class="selected-product-quantity" type="number" value="1" min="1"></li>
+                                </ul>
+                            <img class="selected-product-delete" src="photo/close-logo.svg" alt="delete">    
+                            </div>
+                        </div>
+                        <div class="selected-product-card">
+                            <div class="selected-product-card-left">
+                                <a class="link-to-product" href="product.html"><img class="selected-product-photo" src="photo/card-photo-7.jpg" alt="photo"></a>
+                            </div>
+                            <div class="selected-product-card-right">
+                                <a class="link-to-product" href="product.html"><h3 class="selected-product-subheading">MANGO PEOPLE T-SHIRT</h3></a>
+                                <ul class="selected-product-list">
+                                    <li class="selected-product-item">Price: <span class="pink__elements">$300</span></li>
+                                    <li class="selected-product-item">Color: Red</li>
+                                    <li class="selected-product-item">Size: XL</li>
+                                    <li class="selected-product-item">Quantity:&emsp;<input class="selected-product-quantity" type="number" value="1" min="1"></li>
+                                </ul>
+                            <img class="selected-product-delete" src="photo/close-logo.svg" alt="delete">    
+                            </div>
+                        </div>   
+                    <div class="shopping-cart-button-box">
+                        <button class="shopping-cart-button">Clear shopping cart</button>
+                        <button class="shopping-cart-button">Continue shopping</button>
+                    </div>
+                </div>
+                <div class="shipping-total-info-box">
+                    <form action="#">
+                        <div class="shipping-info">
+                                <h4 class="shipping-subheading">SHIPPING ADRESS</h4>
+                                <input class="registration-input" type="text" id="country" placeholder="Bangladesh" required pattern="\S+[A-zz-a]">
+                                <br>
+                                <input class="registration-input shipping-country" type="text" id="state" placeholder="State" required pattern="\S+[A-zz-a]">
+                                <br>
+                                <input class="registration-input shipping-country" type="text" id="postcode" placeholder="Postcode / Zip" required pattern="\S+[A-zz-a]">
+                                <br>
+                                <button type="submit" class="get-a-quote-button">get a quote</button>
+                        </div>
+                        <div class="shipping-total">
+                            <h3 class="shipping-sub-total">SUB TOTAL <span>$900</span></h3>
+                            <h2 class="shipping-grand-total">GRAND TOTAL <span class="pink__elements total-purchase-sum">$900</span></h2>
+                            <button type="submit" class="shipping-total-button pulsate-bck">PROCEED TO CHECKOUT</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container__stand">
+                <div class="footer__top__box">
+                    <figure class="citation">
+                        <img src="photo/citation-photo.png" alt="photo" class="citation__photo">
+                        <p class="citation__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span class="italic"> a pulvinar purus condimentum</span>“</p>
+                    </figure>
+                    <div class="subscribe__box">
+                        <h3 class="subscribe__subheading">Subscribe</h3>
+                        <p class="subscribe__text">FOR OUR NEWLETTER AND PROMOTION</p>
+                        <form class="subscribe__input__box" action="#">
+                            <input class="entry__field" type="email" placeholder="Enter Your Email">
+                            <button class="subscribe__button" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container__stand">
+                <div class="footer__bottom__box">
+                    <p class="footer__bottom__left">© 2021 Brand All Rights Reserved.</p>
+                    <div class="social__media__box">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
+</body>
+</html>
